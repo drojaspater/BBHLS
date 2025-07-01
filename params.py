@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import subprocess
 import itertools
+import sys
 
 import riroriro.inspiralfuns as ins
 import riroriro.mergerfirstfuns as me1

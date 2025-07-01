@@ -1,5 +1,10 @@
 from params import *
 
+
+logMc = float(sys.argv[1])  # primer argumento
+q = float(sys.argv[2])      # segundo argumento
+print(f"[Script] Recibí logMc = {logMc}, q = {q}")
+
 print("riroriro start")
 #Inspiral portion (inspiralfuns)
 print("Inspiral portion calculation")

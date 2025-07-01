@@ -14,4 +14,4 @@ for i in range(N_com):
     q      = combinations[i][1]
 
     print("Working with the parameters logMC = %s , q = %s"%(logMc,q))
-    subprocess.run(["python", "WaveForme_Generation.py"]) 
+    subprocess.run(["python", "WaveForme_Generation.py", str(logMc), str(q)]) 
